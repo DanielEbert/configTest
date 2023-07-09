@@ -4,6 +4,8 @@ from typing import Any
 
 
 class Config:
+    repository_root_path: str
+
     def __init__(self):
         self.config = {}
 
